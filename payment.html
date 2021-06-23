@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script defer src="./fonts/js/all.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="col-lg-12 p-5">
+
+
+
+            <div class="row mb-5 justify-content-center">
+
+                <div class="col-lg-10 text-center mb-5">
+                    <h2>Get Started Togay</h2>
+                    <p>Choose the richt plan and start creating projects</p>
+                </div>
+
+                <div class="col-lg-10">
+                    <div class="card active mb-5 mb-lg-0 p-3">
+                        <div class="row card-header">
+
+                            <div class="person">
+                                <img src="assets\img\person2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-8">
+                                <h5 class="card-title">Professional</h5>
+                                <h4 class="card-price "><small>€</small> 24 <span class="period text-muted">
+                                        /month</span>
+                                </h4>
+                            </div>
+                            <div class="col-lg-2 changePlan">
+                                <a href="#" class="btn btn-block btn-planChang">Change plan</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-md-12 mx-0">
+                        <form id="msform">
+                            <!-- progressbar -->
+                            <ul id="progressbar">
+                                <li class="active" id="account">
+                                    <div><span> 1</span></div><strong>Choose a payment method</strong>
+                                </li>
+                                <li id="payment">
+                                    <div><span> 2</span></div><strong>Payment details</strong>
+                                </li>
+                            </ul> <!-- fieldsets -->
+                            <fieldset>
+                                <div class="form-card col-md-12 row">
+                                    <!-- <input type="button" name="next" class="next action-button" value="Next Step" /> -->
+
+                                    <div class="col-md-5">
+                                        <a type="button" name="next" class="next action-button" value="Next Step"><i
+                                                class="far fa-credit-card"></i> Credit Card</a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <a type="button" name="next" class="next action-button" value="Next Step"><i
+                                                class="fas fa-university"></i> Internet banking</a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <a type="button" name="next" class="next action-button" value="Next Step"><i
+                                                class="fab fa-paypal"></i> Paypal</a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <a type="button" name="next" class="next action-button" value="Next Step"><i
+                                                class="fab fa-bitcoin"></i> Bitcoin</a>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <div class="col-md-8 form-card input-group">
+                                    <label class="form-label">Card details</label>
+
+                                    <span class="input-group-text"><img src="./assets/img/cardLogo.png"
+                                            class="img-fluid img-thumbnail" alt=""></span>
+                                    <input type="text" aria-label="Card number" class="form-control">
+                                    <input type="text" aria-label="Val" class="form-control">
+                                    <input type="text" aria-label="Cvc" class="form-control">
+                                </div>
+                                <div class="col-md-12 form-card input-group">
+                                    <div class="col-lg-6 col-md-6 com-sm-6">
+                                        <label class="form-label">Full name</label>
+                                        <input type="text" aria-label="Val" class="form-control">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 com-sm-6">
+                                        <label class="form-label">Email</label>
+                                        <input type="text" aria-label="Val" class="form-control">
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-11">
+
+
+                                    <a type="button" id="load" name="confirm" class="confirm action-button-confirm"
+                                        value="Confirm Step">Pay € 24</a>
+                                </div>
+
+                                <div class="col-4 text-right">
+                                    <button type="submit" id="load" class="btn btn-sm btn-primary">Pesquisar</button>
+                                  </div>
+                            </fieldset>
+                            <fieldset>
+                                <div class="form-card">
+                                    <h2 class="fs-title text-center">Success !</h2> <br><br>
+                                    <div class="row justify-content-center">
+                                        <div class="col-3"> <img src="https://img.icons8.com/color/96/000000/ok--v2.png"
+                                                class="fit-image"> </div>
+                                    </div> <br><br>
+                                    <div class="row justify-content-center">
+                                        <div class="col-7 text-center">
+                                            <h5>You Have Successfully Signed Up</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="col-lg-12 text-center">
+                    <h5>Do you need more information on plans?</h5>
+                    <a href="">Contact us</a>
+                </div>
+            </footer>
+            
+
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+            crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
